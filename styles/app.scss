@@ -1,0 +1,39 @@
+@import "../node_modules/reset-css/sass/reset"; // reset css is used to set all browsers default value to the same values => https://meyerweb.com/eric/tools/css/reset/
+@import "./variables";
+@import "./themes";
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  color: var(--text-color);
+  font-size: 16px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  font: inherit;
+  outline: none;
+  border-radius: 0;
+  cursor: pointer;
+  -webkit-appearance: none;
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}

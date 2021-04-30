@@ -1,0 +1,19 @@
+
+
+.layout {
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: var(--linear-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  & > main {
+    height: 100%;
+    position: relative;
+    @media (max-width: 730px) {
+      height: 100%;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+:root {
+  --text-color: #000000;
+  --text-color-inverse: #fff;
+  --bg-color: #f4f4f4;
+  --primary: #FB4D94;
+  --primary-dark: darken(#FB4D94, 5%);
+  --secondary: #a1f2fc;
+  --secondary-dark: #2826a9;
+  --linear-background: linear-gradient(130deg, #a1f2fc, #2826a9, #FB4D94);
+  --border-color: rgb(48, 44, 44);
+}
+
+.theme {
+  &--dark {
+    --text-color: #fff;
+    --text-color-inverse: #FFF;
+    --bg-color: #181818;
+    --primary: #FB4D94;
+    --primary-dark: darken(#FB4D94, 5%);
+    --secondary: #a1f2fc;
+    --secondary-dark: #2826a9;
+    --linear-background: linear-gradient(130deg, #1f1f1f, #060614, #070204);
+    --border-color: #fff;
+  }
+
+  &--stPatrick {
+    --text-color: #fff;
+    --text-color-inverse: #000;
+    --bg-color: #181818;
+    --primary: #f1c761;
+    --primary-dark: darken(#f1c761, 5%);
+    --secondary: #057703;
+    --secondary-dark: rgba(255,121,0,1);
+    --linear-background: linear-gradient(90deg, rgba(0,154,73,1) 15%, rgba(255,121,0,1) 85%);
+    --border-color: #f1c761;
+  }
+
+  &--white {
+    --text-color: #fff;
+    --text-color-inverse: #fff;
+    --bg-color: #fff;
+    --primary: #fff;
+    --primary-dark: darken(#fff, 5%);
+    --secondary: #fff;
+    --secondary-dark: #fff;
+    --linear-background: linear-gradient(130deg, #fff, #fff, #fff);
+    --border-color: darken(#fff, 15%);
+  }
+}
