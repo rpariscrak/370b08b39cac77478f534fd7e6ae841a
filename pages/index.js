@@ -73,16 +73,7 @@ export default function Home() {
       <div className={css.container}>
         <div className={css.feed}>
           <div>
-            <video
-              className="player"
-              controls
-              controlsList="nodownload"
-              disablePictureInPicture
-              preload="true"
-              muted
-            >
-              <source src={"/videos/fast_photo.mp4"} />
-            </video>
+           
           </div>
           <div className={css.survey}>
             <div>
@@ -111,7 +102,7 @@ export default function Home() {
                 <div
                   key={model.name}
                   className={css.model}
-                  style={{ backgroundImage: `url(${model.img})` }}
+                  style={{backgroundColor: 'rgba(0,0,0, 0.3)'}}
                 />
               );
             })}
@@ -131,12 +122,12 @@ export default function Home() {
           </div>
         </div>
         <div className={css.seo}>
-          <h2>JERKMATE – LIVE SEX CAM GIRLS AND ADULT WEBCAM SEX CHAT ROOMS</h2>
-          <h3>The Hottest Live Masturbation Cam Site On The Web! - JerkMate</h3>
+          <h2>SITENAME – LIVE SEX CAM GIRLS AND ADULT WEBCAM SEX CHAT ROOMS</h2>
+          <h3>The Hottest Live Masturbation Cam Site On The Web! - SITENAME</h3>
           <p>
             Meet Cute Live Cam Girls and masturbate on camera. Our extremely
             horny cam girls and boys are waiting to share an intimate
-            masturbation experience with you. Jerkmate, the first A.I driven
+            masturbation experience with you. SITENAME, the first A.I driven
             live cam site where you can meet people that match your desire to
             discuss on cam to cam live sex!
           </p>
